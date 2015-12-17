@@ -4,7 +4,7 @@ CFLAGS		= -pipe -D_REENTRANT -Wall -W -g
 CXXFLAGS	= -pipe -D_REENTRANT -Wall -W -g
 INCPATH		= -I.
 LINK		= g++
-LIBS		= $(SUBLIBS) -lyaml-cpp -lcurl -ljson
+LIBS		= $(SUBLIBS) -lyaml-cpp -lcurl -ljson -lssl -lcrypto
 
 OBJECTS_DIR = obj
 
